@@ -91,3 +91,15 @@ Le nom de la classe de formulaire que tu veux (CategoryType) et si tu oublies le
 
 Le nom de la classe de données associée (Category)
 
+* Lancer un fichier de migration (le dernier se charge en priorité):
+```shell
+symfony console doctrine:migrations:migrate
+```
+
+Mémo
+--- 
+Logique / Routes / Vérification formulaire / Récupération BDD / Renvoi des variables twig -> src/Controller
+Affichage -> templates
+Requêtes DQL / Renvoi en BDD -> src/Repository
+Formulaires -> src/Form 
+Feuilles de style (scss) -> assets/styles
