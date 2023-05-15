@@ -98,8 +98,12 @@ symfony console doctrine:migrations:migrate
 
 Mémo
 --- 
-Logique / Routes / Vérification formulaire / Récupération BDD / Renvoi des variables twig -> src/Controller
-Affichage -> templates
-Requêtes DQL / Renvoi en BDD -> src/Repository
-Formulaires -> src/Form 
-Feuilles de style (scss) -> assets/styles
+- Logique / Routes / Vérification formulaire / Récupération BDD / Renvoi des variables twig -> src/Controller
+
+- Affichage -> templates
+
+- Requêtes DQL / Renvoi en BDD -> src/Repository
+
+- Formulaires -> src/Form 
+
+- Feuilles de style (scss) -> assets/styles
