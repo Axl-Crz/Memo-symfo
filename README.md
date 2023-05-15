@@ -49,3 +49,13 @@ Essaie d'accéder à Yarn avec Gitbash (que tu utilises régulièrement maintena
 Et voilà ! 🎉
 
 Voici un petit tuto récapitulatif pour NVM, Node et NPM si tu as rencontré des problèmes à l'installation https://docs.microsoft.com/fr-fr/windows/dev-environment/javascript/nodejs-on-windows.
+
+* Installation des dépendances du projet: 
+```shell
+yarn install
+```
+* Installation sass-loader pour compiler du SCSS
+    Decommenter l'option .enableSassLoader() dans le fichier webpack.config.js puis :
+```shell
+yarn add sass-loader@latest sass --dev
+```
