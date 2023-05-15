@@ -3,20 +3,20 @@ A faire en arrivant sur un projet symfony :
 * Installer composer : 
 Tout d'abord ouvre un terminal et rends toi dans le dossier de ton projet.
     - Exécute les commandes suivantes (une par une) afin de télécharger composer dans le dossier de ton projet :
-```shell
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php composer-setup.php --filename=composer
-php -r "unlink('composer-setup.php');"
-```
+    ```shell
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    php composer-setup.php --filename=composer
+    php -r "unlink('composer-setup.php');"
+    ```
     - Puis installer le fichier que je vais vous envoyer.
     - Vérifier que composer est bien installé :
-```shell
-composer --version
-```
+    ```shell
+    composer --version
+    ```
     - Pour être sûr d'avoir Composer à jour : 
-```shell
-composer self-update
-```
+    ```shell
+    composer self-update
+    ```
 
 * Cloner le projet : 
 ```shell
